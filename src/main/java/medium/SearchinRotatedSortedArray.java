@@ -11,7 +11,6 @@ public class SearchinRotatedSortedArray {
     }
 
     public int search(int[] nums, int target) {
-        int response = 1;
 
         int start = 0, end = nums.length - 1;
 
