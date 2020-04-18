@@ -16,6 +16,7 @@ public class ProductofArrayExceptSelf {
 
     public int[] productExceptSelf(int[] nums) {
 
+        /*
         int[] productESelf =  new int[nums.length];
 
         int[] leftProduct = new int[nums.length];
@@ -23,7 +24,6 @@ public class ProductofArrayExceptSelf {
 
         leftProduct[0] = 1;
         rightProduct[0] = 1;
-        result[0] = 1;
 
         for (int i = 1; i < nums.length; i++){
             leftProduct[i] = nums[i-1]*leftProduct[i-1];
@@ -47,6 +47,22 @@ public class ProductofArrayExceptSelf {
 
 
         return productESelf;
+        */
+        
+        int[] result =  new int[nums.length];
+
+
+        for(int i = 0, temp = 1; i < nums.length; i++){
+            result[i] = temp;
+            temp *= nums[i];
+        }
+
+        for(int i = nums.length -1, temp = 1; i >= 0; i--){
+            result[i] *= temp;
+            temp *= nums[i];
+        }
+
+        return result;
     }
 
 
