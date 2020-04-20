@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d5a182-9b21-4a9a-a313-b61a057a1919" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/medium/GenerateParentheses.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -34,34 +34,46 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3058" />
+          <entry key="java" value="3447" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3058" />
+          <entry key="JAVA" value="3447" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEnd.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="9" selection-end-column="52" />
+            <state relative-caret-position="11">
+              <caret line="2" column="33" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/medium/GenerateParentheses.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -450,6 +462,7 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/SearchinRotatedSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/FindFirstandLastPositionofElementinSortedArray.java" />
         <option value="$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEnd.java" />
+        <option value="$PROJECT_DIR$/src/main/java/medium/GenerateParentheses.java" />
       </list>
     </option>
   </component>
@@ -459,7 +472,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="544" />
     <option name="y" value="23" />
     <option name="width" value="1440" />
@@ -516,7 +529,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587375774875" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1587395349851" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -534,7 +547,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.RemoveNthNodeFromEnd">
+  <component name="RunManager" selected="Application.GenerateParentheses">
     <configuration name="FindFirstandLastPositionofElementinSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="medium.FindFirstandLastPositionofElementinSortedArray" />
       <module name="leetcode-2020_main" />
@@ -548,8 +561,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberofIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.NumberofIslands" />
+    <configuration name="GenerateParentheses" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.GenerateParentheses" />
       <module name="leetcode-2020_main" />
       <extension name="coverage">
         <pattern>
@@ -561,8 +574,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProductofArrayExceptSelf" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.ProductofArrayExceptSelf" />
+    <configuration name="NumberofIslands" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="medium.NumberofIslands" />
       <module name="leetcode-2020_main" />
       <extension name="coverage">
         <pattern>
@@ -601,19 +614,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ProductofArrayExceptSelf" />
       <item itemvalue="Application.NumberofIslands" />
       <item itemvalue="Application.SearchinRotatedSortedArray" />
       <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray" />
       <item itemvalue="Application.RemoveNthNodeFromEnd" />
+      <item itemvalue="Application.GenerateParentheses" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.GenerateParentheses" />
         <item itemvalue="Application.RemoveNthNodeFromEnd" />
         <item itemvalue="Application.FindFirstandLastPositionofElementinSortedArray" />
         <item itemvalue="Application.SearchinRotatedSortedArray" />
         <item itemvalue="Application.NumberofIslands" />
-        <item itemvalue="Application.ProductofArrayExceptSelf" />
       </list>
     </recent_temporary>
   </component>
@@ -630,15 +643,15 @@
       <workItem from="1587197495269" duration="4859000" />
       <workItem from="1587226622940" duration="1861000" />
       <workItem from="1587364303664" duration="2237000" />
-      <workItem from="1587372196457" duration="3257000" />
+      <workItem from="1587372196457" duration="4382000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12214000" />
+    <option name="totallyTimeSpent" value="13339000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="544" y="23" width="1440" height="794" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="794" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4959514" visible="true" weight="0.26037195" />
@@ -701,6 +714,12 @@
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/medium/GenerateParentheses.java</url>
+          <line>21</line>
+          <properties />
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -762,8 +781,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/medium/RemoveNthNodeFromEnd.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="7" column="42" lean-forward="true" selection-start-line="7" selection-start-column="42" selection-end-line="9" selection-end-column="52" />
+        <state relative-caret-position="11">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/medium/GenerateParentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="21" column="25" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
