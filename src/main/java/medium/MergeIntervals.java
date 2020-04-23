@@ -17,7 +17,7 @@ public class MergeIntervals {
 
     public int[][] merge(int[][] intervals) {
 
-        if(intervals.length == 0){
+        if(intervals.length <= 1){
             return intervals;
         }
 
