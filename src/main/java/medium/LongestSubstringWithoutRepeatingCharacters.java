@@ -15,6 +15,9 @@ public class LongestSubstringWithoutRepeatingCharacters {
 
         int longestSubstring = 0;
 
+        if(s.length() == 0){
+            return 0;
+        }
         int start = 0, end = 0;
         HashMap<Character, Integer> map  = new HashMap<>();
 
