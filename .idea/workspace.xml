@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d5a182-9b21-4a9a-a313-b61a057a1919" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/dp/scoreCombinations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/hard/SerializeandDeserializeBinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hard/FirstMissingPositive.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/medium/LongestSubstringWithoutRepeatingCharacters.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/medium/LongestSubstringWithoutRepeatingCharacters.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -37,36 +35,57 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="19" />
+          <entry key="java" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="21" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="9968" />
+          <entry key="java" value="10343" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="9968" />
+          <entry key="JAVA" value="10343" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/hard/SerializeandDeserializeBinaryTree.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="77" selection-start-line="77" selection-end-line="77" />
+            <state relative-caret-position="229">
+              <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/hard/FirstMissingPositive.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="126">
+              <caret line="598" selection-start-line="598" selection-end-line="598" />
+              <folding>
+                <element signature="e#19452#19453#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -464,6 +483,7 @@
         <option value="$PROJECT_DIR$/src/main/java/medium/LongestSubstringWithoutRepeatingCharacters.java" />
         <option value="$PROJECT_DIR$/src/main/java/dp/scoreCombinations.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/SerializeandDeserializeBinaryTree.java" />
+        <option value="$PROJECT_DIR$/src/main/java/hard/FirstMissingPositive.java" />
       </list>
     </option>
   </component>
@@ -473,11 +493,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="83" />
-    <option name="y" value="32" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="149" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="787" />
+    <option name="height" value="788" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -522,7 +542,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588145697357" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588150594753" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -540,13 +560,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SerializeandDeserializeBinaryTree">
-    <configuration name="DecodeWays" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="medium.DecodeWays" />
+  <component name="RunManager" selected="Application.FirstMissingPositive">
+    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="hard.FirstMissingPositive" />
       <module name="leetcode-2020_main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="medium.*" />
+          <option name="PATTERN" value="hard.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -607,19 +627,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.DecodeWays" />
       <item itemvalue="Application.MergeIntervals" />
       <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
       <item itemvalue="Application.scoreCombinations" />
       <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
+      <item itemvalue="Application.FirstMissingPositive" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FirstMissingPositive" />
         <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
         <item itemvalue="Application.scoreCombinations" />
         <item itemvalue="Application.LongestSubstringWithoutRepeatingCharacters" />
         <item itemvalue="Application.MergeIntervals" />
-        <item itemvalue="Application.DecodeWays" />
       </list>
     </recent_temporary>
   </component>
@@ -642,15 +662,15 @@
       <workItem from="1587638065992" duration="4209000" />
       <workItem from="1587884977650" duration="4691000" />
       <workItem from="1587986546177" duration="4418000" />
-      <workItem from="1588143831074" duration="1830000" />
+      <workItem from="1588143831074" duration="3364000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="49197000" />
+    <option name="totallyTimeSpent" value="50731000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="788" extended-state="6" />
+    <frame x="149" y="23" width="1440" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48712447" visible="true" weight="0.28183118" />
@@ -668,7 +688,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" weight="0.32905984" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3294964" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32902297" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="10" weight="0.3275862" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
@@ -819,10 +839,10 @@
           <option name="timeStamp" value="120" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/hard/SerializeandDeserializeBinaryTree.java</url>
-          <line>72</line>
+          <url>file://$PROJECT_DIR$/src/main/java/hard/FirstMissingPositive.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="128" />
+          <option name="timeStamp" value="132" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1013,13 +1033,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/src.zip!/java/util/ArrayDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="598" selection-start-line="598" selection-end-line="598" />
+          <folding>
+            <element signature="e#19452#19453#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/hard/SerializeandDeserializeBinaryTree.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
-          <caret line="77" selection-start-line="77" selection-end-line="77" />
+        <state relative-caret-position="229">
+          <caret line="67" column="30" lean-forward="true" selection-start-line="67" selection-start-column="30" selection-end-line="67" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/hard/FirstMissingPositive.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
