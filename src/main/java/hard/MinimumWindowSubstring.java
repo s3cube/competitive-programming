@@ -1,5 +1,6 @@
 package hard;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
 
@@ -14,52 +15,57 @@ public class MinimumWindowSubstring {
 
     public String minWindow(String s, String t) {
 
+        int tArr[] = new int[128];
 
-        int minLength = Integer.MAX_VALUE;
-        String minWord = "";
+        for (int i = 0; i < t.length(); i++){
+            tArr[t.charAt(i)]++;
+        }
+
+        int counter = t.length();
+
         int start = 0, end = 0;
 
-        while (end <= s.length()){
+        int minLength = Integer.MAX_VALUE;
+        int minStart = 0;
+        String minWord = "";
 
-            String substr = s.substring(start, end);
+        while (end < s.length()){
 
-            while (substr.length() >= t.length() && containsChars(substr,t)){
-                if(minLength > substr.length()){
-                    minLength = substr.length();
-                    minWord = substr;
+            if(tArr[s.charAt(end)] > 0){
+                counter--;
+            }
+
+            tArr[s.charAt(end)]--;
+
+            end++;
+
+            while (counter == 0){
+
+                if(minLength > (end - start)){
+                    minLength = (end - start);
+                    minStart = start;
+                    // minWord = s.substring(start,end);
+                }
+
+                char startChar = s.charAt(start);
+
+                tArr[startChar]++;
+
+                if(tArr[startChar]>0){
+                    counter++;
                 }
                 start++;
-                substr = s.substring(start, end);
             }
-            end++;
+
         }
 
 
-        return minWord;
+        if(minLength == Integer.MAX_VALUE){
+            return "";
+        }else{
+            return s.substring(minStart, minStart+ minLength);
+        }
+
     }
 
-    public boolean containsChars(String s, String t){
-
-        int sAlp[] = new int[128];
-        int bAlp[] = new int[128];
-
-        for (int i =0; i < s.length(); i++){
-            sAlp[s.charAt(i)]++;
-        }
-
-        for (int i =0; i < t.length(); i++){
-            bAlp[t.charAt(i)]++;
-        }
-
-        for (int i = 0; i < sAlp.length; i++){
-            if(bAlp[i] > 0 && sAlp[i] < bAlp[i]){
-                return false;
-            }
-        }
-
-        return true;
-
-
-
-    }
 }
