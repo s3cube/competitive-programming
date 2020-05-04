@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="18d5a182-9b21-4a9a-a313-b61a057a1919" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MayChallenge/firstBadVersion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MayChallenge/jewelsAndStones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MayChallenge/ransomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,46 +25,81 @@
     <session id="620032645">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="11" />
+          <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.7" value="6" />
-          <entry key="project.open.time.8" value="3" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.8" value="4" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="24" />
+          <entry key="java" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="24" />
+          <entry key="JAVA" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="12891" />
+          <entry key="java" value="13765" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="12891" />
+          <entry key="JAVA" value="13765" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/firstBadVersion.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="279">
-              <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+            <state relative-caret-position="180">
+              <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="30" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/jewelsAndStones.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="27" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/ransomNote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="28" />
+              <folding>
+                <element signature="e#93#94#0" expanded="true" />
+                <element signature="e#150#151#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+              <folding>
+                <element signature="e#99#100#0" expanded="true" />
+                <element signature="e#117#118#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -463,6 +500,9 @@
         <option value="$PROJECT_DIR$/src/main/java/hard/MinimumWindowSubstring.java" />
         <option value="$PROJECT_DIR$/src/main/java/hard/TrappingRainWater.java" />
         <option value="$PROJECT_DIR$/src/main/java/MayChallenge/firstBadVersion.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MayChallenge/jewelsAndStones.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MayChallenge/ransomNote.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java" />
       </list>
     </option>
   </component>
@@ -473,8 +513,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="265" />
-    <option name="y" value="77" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
     <option name="height" value="785" />
   </component>
@@ -484,6 +523,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -517,19 +559,24 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="hard" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="leetcode-2020" type="b2602c69:ProjectViewProjectNode" />
+              <item name="leetcode-2020" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MayChallenge" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588496960252" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588623395086" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -547,52 +594,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.firstBadVersion">
-    <configuration name="FirstMissingPositive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.FirstMissingPositive" />
-      <module name="leetcode-2020_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MinimumWindowSubstring" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.MinimumWindowSubstring" />
-      <module name="leetcode-2020_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SerializeandDeserializeBinaryTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hard.SerializeandDeserializeBinaryTree" />
-      <module name="leetcode-2020_main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hard.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.complementNumber">
     <configuration name="TrappingRainWater" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="hard.TrappingRainWater" />
       <module name="leetcode-2020_main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="hard.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="complementNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayChallenge.complementNumber" />
+      <module name="leetcode-2020_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MayChallenge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -613,20 +634,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="jewelsAndStones" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayChallenge.jewelsAndStones" />
+      <module name="leetcode-2020_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MayChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ransomNote" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MayChallenge.ransomNote" />
+      <module name="leetcode-2020_main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MayChallenge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
-      <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
-      <item itemvalue="Application.FirstMissingPositive" />
-      <item itemvalue="Application.MinimumWindowSubstring" />
       <item itemvalue="Application.TrappingRainWater" />
       <item itemvalue="Application.firstBadVersion" />
+      <item itemvalue="Application.jewelsAndStones" />
+      <item itemvalue="Application.ransomNote" />
+      <item itemvalue="Application.complementNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.complementNumber" />
+        <item itemvalue="Application.ransomNote" />
+        <item itemvalue="Application.jewelsAndStones" />
         <item itemvalue="Application.firstBadVersion" />
         <item itemvalue="Application.TrappingRainWater" />
-        <item itemvalue="Application.MinimumWindowSubstring" />
-        <item itemvalue="Application.FirstMissingPositive" />
-        <item itemvalue="Application.SerializeandDeserializeBinaryTree" />
       </list>
     </recent_temporary>
   </component>
@@ -651,18 +698,18 @@
       <workItem from="1587986546177" duration="4418000" />
       <workItem from="1588143831074" duration="10156000" />
       <workItem from="1588240459189" duration="2118000" />
-      <workItem from="1588496626340" duration="328000" />
+      <workItem from="1588496626340" duration="2083000" />
+      <workItem from="1588576786253" duration="886000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59969000" />
+    <option name="totallyTimeSpent" value="62610000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="265" y="77" width="1440" height="785" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="785" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48712447" visible="true" weight="0.28898427" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48712447" visible="true" weight="0.2932761" />
       <window_info id="Structure" order="1" sideWeight="0.51287556" side_tool="true" weight="0.27825466" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -846,16 +893,40 @@
           <option name="timeStamp" value="138" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/firstBadVersion.java</url>
-          <line>14</line>
+          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/jewelsAndStones.java</url>
+          <line>27</line>
           <properties />
-          <option name="timeStamp" value="139" />
+          <option name="timeStamp" value="142" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/firstBadVersion.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/ransomNote.java</url>
+          <line>26</line>
           <properties />
-          <option name="timeStamp" value="141" />
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java</url>
+          <line>25</line>
+          <properties />
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java</url>
+          <line>12</line>
+          <properties />
+          <option name="timeStamp" value="147" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1034,6 +1105,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="656" selection-start-line="656" selection-end-line="656" />
+          <folding>
+            <element signature="e#22786#22787#0" expanded="true" />
+            <element signature="e#22821#22822#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1090,8 +1165,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/firstBadVersion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="180">
+          <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/jewelsAndStones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="27" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/ransomNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="26" selection-end-column="28" />
+          <folding>
+            <element signature="e#93#94#0" expanded="true" />
+            <element signature="e#150#151#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MayChallenge/complementNumber.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#99#100#0" expanded="true" />
+            <element signature="e#117#118#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
